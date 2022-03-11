@@ -77,6 +77,8 @@ def total(hand):
     return result
 
 
+# Multiplayer (1-8) Multideck (1-6) Blackjack Game
+
 numPlayer = ''
 while numPlayer not in [str(x) for x in range(1, 9)]:
     numPlayer = input("How many players (1-8)? ")
